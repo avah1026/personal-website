@@ -1,0 +1,22 @@
+h1 {
+    
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    font-family: Copperplate, fantasy;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: pink;
+}
+
