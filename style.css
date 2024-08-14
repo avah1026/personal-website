@@ -1,7 +1,16 @@
 h1 {
-    
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 0;
+    
+}
+
+.sidenav {
+    height: 100%;
+    width: 100px;
+    position:fixed;
+    display: block;
+    padding: 5px;
 }
 
 a:link {
@@ -20,3 +29,27 @@ a:hover {
     color: pink;
 }
 
+ul {
+    float: left;
+    list-style-position: inside;
+}
+ li {
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    left: 200px;
+    text-align: left;
+ }
+
+ .aboutme {
+    margin-left: 100px; /* Same as the width of the sidebar */
+    padding: 0px 20px;
+    width: 500px;
+ }
+
+ .profile-pic {
+    padding-top: 0px;
+    width: 130px; /* Set the width to the desired value */
+    height: 130px; /* Set the height to the desired value */
+    object-fit: cover; /* This will crop the image to fit the container */
+}
