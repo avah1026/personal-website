@@ -8,7 +8,7 @@ h1 {
 .sidenav {
     height: 100%;
     width: 100px;
-    position:relative;
+    position: fixed;
     display: block;
     padding: 5px;
 }
@@ -42,6 +42,7 @@ ul {
  }
 
  .aboutme {
+    margin-top: 5px;
     margin-left: 100px; /* Same as the width of the sidebar */
     padding: 0px 20px;
     width: 500px;
@@ -71,3 +72,15 @@ a.soc:link {
 a.soc:hover {
     color: rgb(216, 77, 91);
 }
+
+.clickable-image {
+    display: inline-block;  /* Ensures the image is treated as an inline block */
+}
+
+.clickable-image img {
+    cursor: pointer; /* Changes cursor to indicate it's clickable */
+    max-width: 100%; /* Makes the image responsive */
+    height: 100px;    /* Maintains aspect ratio */
+    width: 100px
+}
+
